@@ -7,6 +7,7 @@ function App() {
     title:"TITLE_NAME"
   }
   return (
+    
     <div className="bg-light">
     <main role="main">
       <Jumbotron data={jambotron_data}/>
