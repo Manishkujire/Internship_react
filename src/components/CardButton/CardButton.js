@@ -6,7 +6,7 @@ export default function CardButton(props) {
             type="button"
             className="btn btn-sm btn-outline-secondary"
         >
-            {props.text}
+            {props.text }
         </button>
     )
 }
