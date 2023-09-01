@@ -1,3 +1,5 @@
+import Form from "./Pages/Form";
+import Table from "./Pages/Table";
 import Album from "./components/Album/Album";
 import Jumbotron from "./components/Jambotron/Jambotron";
 
@@ -10,9 +12,7 @@ function App() {
     
     <div className="bg-light">
     <main role="main">
-      <Jumbotron data={jambotron_data}/>
-
-      <Album/>
+      <Table/>
     </main>
     </div>
   );
